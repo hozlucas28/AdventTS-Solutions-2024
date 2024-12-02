@@ -46,6 +46,7 @@
 |  #  | Challenge                                         | Difficulty |        Description         |
 | :-: | ------------------------------------------------- | :--------: | :------------------------: |
 | 01  | Introduction to the Advent of TypeScript platform |     🟢     | [Show](./src/01-challenge) |
+| 02  | Create a type which returns a literal number      |     🟢     | [Show](./src/02-challenge) |
 
 <h2>
     License
