@@ -43,10 +43,11 @@
     Challenges
 </h2>
 
-|  #  | Challenge                                         | Difficulty |        Description         |
-| :-: | ------------------------------------------------- | :--------: | :------------------------: |
-| 01  | Introduction to the Advent of TypeScript platform |     🟢     | [Show](./src/01-challenge) |
-| 02  | Create a type which returns a literal number      |     🟢     | [Show](./src/02-challenge) |
+|  #  | Challenge                                                    | Difficulty |        Description         |
+| :-: | ------------------------------------------------------------ | :--------: | :------------------------: |
+| 01  | Introduction to the Advent of TypeScript platform            |     🟢     | [Show](./src/01-challenge) |
+| 02  | Create a type which returns a literal number                 |     🟢     | [Show](./src/02-challenge) |
+| 03  | Change the data type of the parameter for only allow numbers |     🟢     | [Show](./src/03-challenge) |
 
 <h2>
     License
