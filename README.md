@@ -10,6 +10,7 @@
     <a href="#----summary">Summary</a> •
     <a href="#----installation">Installation</a> •
     <a href="#----challenges">Challenges</a> •
+    <a href="#----related">Related</a> •
     <a href="#----license">License</a> •
     <a href="#----acknowledgments">Acknowledgments</a> •
     <a href="#----contact">Contact</a>
@@ -50,6 +51,17 @@
 | 03  | Change the data type of the parameter for only allow numbers                                                |     🟢     | [Show](./src/03-challenge) |
 | 04  | Change the data type of the parameter for only allow numbers or strings                                     |     🟢     | [Show](./src/04-challenge) |
 | 05  | Change the data type of the function to return the same data type which it receives (without specifying it) |     🟢     | [Show](./src/05-challenge) |
+
+<h2>
+    Related
+</h2>
+<p>
+    <ul>
+        <li>
+            <a href="https://github.com/hozlucas28/AdventTS-Solutions-2023" target="_blank">Solutions of the Advent of TypeScript - 2023</a>
+        </li>
+    </ul>
+</p>
 
 <h2>
     License
