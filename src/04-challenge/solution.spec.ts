@@ -15,6 +15,7 @@ describe('Challenge 04: change the data type of the parameter for only allow num
 
 		type Test = Expect<Equal<Exclude<Actual, number>, Expected>>
 	})
+
 	it('Test 03', () => {
 		type Actual = Parameters<typeof survivalRatio>[0]
 		type Expected = number | `${number} Q${number}`
