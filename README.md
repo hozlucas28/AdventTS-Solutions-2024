@@ -44,13 +44,14 @@
     Challenges
 </h2>
 
-|  #  | Challenge                                                                                                   | Difficulty |        Description         |
-| :-: | ----------------------------------------------------------------------------------------------------------- | :--------: | :------------------------: |
-| 01  | Introduction to the Advent of TypeScript platform                                                           |     🟢     | [Show](./src/01-challenge) |
-| 02  | Create a type which returns a literal number                                                                |     🟢     | [Show](./src/02-challenge) |
-| 03  | Change the data type of the parameter for only allow numbers                                                |     🟢     | [Show](./src/03-challenge) |
-| 04  | Change the data type of the parameter for only allow numbers or strings                                     |     🟢     | [Show](./src/04-challenge) |
-| 05  | Change the data type of the function to return the same data type which it receives (without specifying it) |     🟢     | [Show](./src/05-challenge) |
+|  #  | Challenge                                                                                                                                         | Difficulty |        Description         |
+| :-: | ------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :------------------------: |
+| 01  | Introduction to the Advent of TypeScript platform                                                                                                 |     🟢     | [Show](./src/01-challenge) |
+| 02  | Create a type which returns a literal number                                                                                                      |     🟢     | [Show](./src/02-challenge) |
+| 03  | Change the data type of the parameter for only allow numbers                                                                                      |     🟢     | [Show](./src/03-challenge) |
+| 04  | Change the data type of the parameter for only allow numbers or strings                                                                           |     🟢     | [Show](./src/04-challenge) |
+| 05  | Change the data type of the function to return the same data type which it receives (without specifying it)                                       |     🟢     | [Show](./src/05-challenge) |
+| 06  | Change the data type of the function to return the same data type which it receives (without specifying it), but only allowing numbers or strings |     🟢     | [Show](./src/06-challenge) |
 
 <h2>
     Related
