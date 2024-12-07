@@ -52,6 +52,7 @@
 | 04  | Change the data type of the parameter for only allow numbers or strings                                                                           |     🟢     | [Show](./src/04-challenge) |
 | 05  | Change the data type of the function to return the same data type which it receives (without specifying it)                                       |     🟢     | [Show](./src/05-challenge) |
 | 06  | Change the data type of the function to return the same data type which it receives (without specifying it), but only allowing numbers or strings |     🟢     | [Show](./src/06-challenge) |
+| 07  | Infer the literal data type of a function parameter                                                                                               |     🟢     | [Show](./src/07-challenge) |
 
 <h2>
     Related
