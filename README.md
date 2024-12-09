@@ -54,6 +54,7 @@
 | 06  | Change the data type of the function to return the same data type which it receives (without specifying it), but only allowing numbers or strings |     🟢     | [Show](./src/06-challenge) |
 | 07  | Infer the literal data type of a function parameter                                                                                               |     🟢     | [Show](./src/07-challenge) |
 | 08  | Extend global types of NodeJS environment variables                                                                                               |     🟢     | [Show](./src/08-challenge) |
+| 09  | Add types to the third party NPM package                                                                                                          |     🟢     | [Show](./src/09-challenge) |
 
 <h2>
     Related
