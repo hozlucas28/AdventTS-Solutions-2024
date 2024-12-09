@@ -1,5 +1,25 @@
 # Challenge 01
 
+> _[🎅 Santa's reindeer, ☄️ Comet and 💨 Dasher, have a secret meeting with 🎩 Bernard, the head of the elves]_ > \
+> \
+> _[☄️ Comet]_ It's the economy, stupid!\
+> \
+> _[💨 Dasher]_ ☄️Comet! I'm _sick_ of your shit. Read a book or something, wouldja?? Our productivity far outpaced North Pole's inflation like two decades ago. Our wage hasn't changed since 2009 and if you take inflation into account we make half of what we made then! We could have the best economy of the last 500 years and it still wouldn't change anything.\
+> \
+> _[🎩 Bernard]_ Boys, boys! _calm down_. We'll fix this. We can fix this.\
+> \
+> _[☄️ Comet]_ Oh, I’m sorry, Mr. Bernard the Keynesian scholar. Maybe you can explain why we’re still getting paid in candy canes like it’s 1947. Apparently we're dealing with reindeer here _[glares at 💨 Dasher]_ that don't even know the difference between `any` and `unknown`.\
+> \
+> _[🎩 Bernard]_ Boys, boys, calm the hell down! You’re not the only ones with problems. I’ve got 600 elves in the workshop huffing reindeer wax and unionizing over bathroom breaks. You just need to come up with a number for our `Demand`.\
+> \
+> _[💨 Dasher]_ What kind of number?\
+> \
+> _[🎩 Bernard]_ At this point, any number will do. But we need to start somewhere.\
+> \
+> _[💨 Dasher]_ Why not go all in? Write down ‘infinity carrots’ and tell him it’s non-negotiable. What’s he gonna do, hire reindeer scabs?\
+> \
+> _[🎩 Bernard]_ Do you know how hard it is to get Santa to focus these days? Half the time, he’s passed out in his workshop muttering about crypto and Mrs. Claus’s book club drama. _ANY_ number will be fine as a starting point.
+
 ### Welcome To Advent of TypeScript 2024!
 
 #### The Stories
