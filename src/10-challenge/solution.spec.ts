@@ -2,7 +2,7 @@ import type { Gift } from './solution'
 
 const Equal = <T extends Gift>(flag: T) => flag
 
-describe('Challenge 10: XXX', () => {
+describe('Challenge 10: create an enum which contains bitwise operators', () => {
 	it('Test 01', () => {
 		type Actual = Gift.Coal
 		const Expected = 0
