@@ -38,7 +38,7 @@
     <li>Finally, run <code>pnpm test</code> in your CLI to execute all challenges/tests.</li>
 </ol>
 
-> **Note:** If you want to run a specific challenge/test, execute `pnpm run test:challenge<number>`.
+> **Note:** If you want to run a specific challenge/test, execute `pnpm run test:challenge<number>` (challenge 11, and 13 are not testable).
 
 <h2>
     Challenges
@@ -55,6 +55,10 @@
 | 07  | Infer the literal data type of a function parameter                                                                                               |     🟢     | [Show](./src/07-challenge) |
 | 08  | Extend global types of NodeJS environment variables                                                                                               |     🟢     | [Show](./src/08-challenge) |
 | 09  | Add types to the third party NPM package                                                                                                          |     🟢     | [Show](./src/09-challenge) |
+| 10  | Create an enum which contains bitwise operators                                                                                                   |     🟢     | [Show](./src/10-challenge) |
+| 11  | Create a data type for a new object using the "new" reserved name                                                                                 |     🟠     | [Show](./src/11-challenge) |
+| 12  | Format the names without recursion and checking if name length is even or odd (only with types)                                                   |     🔴     | [Show](./src/12-challenge) |
+| 13  | Apply the concepts of Covariant, Contravariant, and Invariant on types                                                                            |     🟠     | [Show](./src/13-challenge) |
 
 <h2>
     Related
