@@ -1,7 +1,7 @@
 import type { Equal, Expect } from 'type-testing'
 import type { FormatNames, Names } from './solution'
 
-describe('Challenge 12: XXX', () => {
+describe('Challenge 12: format the names without recursion and checking if name length is even or odd (only with types)', () => {
 	it('Test 01', () => {
 		type Actual = FormatNames<Names>['length']
 		type Expected = 31682
