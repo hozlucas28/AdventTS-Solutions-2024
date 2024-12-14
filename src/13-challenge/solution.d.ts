@@ -1,3 +1,3 @@
-export type Demand<T> = {
-	demand: T extends T ? T : T
+export type Demand<in out T> = {
+	demand: T
 }
