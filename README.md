@@ -59,6 +59,7 @@
 | 11  | Create a data type for a new object using the "new" reserved name                                                                                 |     🟠     | [Show](./src/11-challenge) |
 | 12  | Format the names without recursion and checking if name length is even or odd (only with types)                                                   |     🔴     | [Show](./src/12-challenge) |
 | 13  | Apply the concepts of Covariant, Contravariant, and Invariant on types                                                                            |     🟠     | [Show](./src/13-challenge) |
+| 14  | Get the possible return types of the function generators                                                                                          |     🟢     | [Show](./src/14-challenge) |
 
 <h2>
     Related
