@@ -60,6 +60,7 @@
 | 12  | Format the names without recursion and checking if name length is even or odd (only with types)                                                   |     🔴     | [Show](./src/12-challenge) |
 | 13  | Apply the concepts of Covariant, Contravariant, and Invariant on types                                                                            |     🟠     | [Show](./src/13-challenge) |
 | 14  | Get the possible return types of the function generators                                                                                          |     🟢     | [Show](./src/14-challenge) |
+| 15  | Get the fuel needed to travel between locations                                                                                                   |     🔴     | [Show](./src/15-challenge) |
 
 <h2>
     Related
