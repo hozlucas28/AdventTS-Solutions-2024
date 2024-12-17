@@ -38,7 +38,7 @@
     <li>Finally, run <code>pnpm test</code> in your CLI to execute all challenges/tests.</li>
 </ol>
 
-> **Note:** If you want to run a specific challenge/test, execute `pnpm run test:challenge<number>` (challenge 11, and 13 are not testable).
+> **Note:** If you want to run a specific challenge/test, execute `pnpm run test:challenge<number>` (challenge 11, 13, and 16 are not testable).
 
 <h2>
     Challenges
@@ -61,6 +61,7 @@
 | 13  | Apply the concepts of Covariant, Contravariant, and Invariant on types                                                                            |     🟠     | [Show](./src/13-challenge) |
 | 14  | Get the possible return types of the function generators                                                                                          |     🟢     | [Show](./src/14-challenge) |
 | 15  | Get the fuel needed to travel between locations                                                                                                   |     🔴     | [Show](./src/15-challenge) |
+| 16  | Create a currying function type declaration                                                                                                       |     🟠     | [Show](./src/16-challenge) |
 
 <h2>
     Related
