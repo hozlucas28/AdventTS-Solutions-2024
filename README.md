@@ -63,6 +63,7 @@
 | 15  | Get the fuel needed to travel between locations                                                                                                   |     🔴     | [Show](./src/15-challenge) |
 | 16  | Create a currying function type declaration                                                                                                       |     🟠     | [Show](./src/16-challenge) |
 | 17  | Infer the literal return type of a compose function                                                                                               |     🟠     | [Show](./src/17-challenge) |
+| 18  | Prevent infer of the second argument and only allowing the literal types of the first argument                                                    |     🟢     | [Show](./src/18-challenge) |
 
 <h2>
     Related
