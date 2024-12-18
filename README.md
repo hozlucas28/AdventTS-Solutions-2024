@@ -62,6 +62,7 @@
 | 14  | Get the possible return types of the function generators                                                                                          |     🟢     | [Show](./src/14-challenge) |
 | 15  | Get the fuel needed to travel between locations                                                                                                   |     🔴     | [Show](./src/15-challenge) |
 | 16  | Create a currying function type declaration                                                                                                       |     🟠     | [Show](./src/16-challenge) |
+| 17  | Infer the literal return type of a compose function                                                                                               |     🟠     | [Show](./src/17-challenge) |
 
 <h2>
     Related
