@@ -1,49 +1,122 @@
 # Challenge 19
 
-> _[🎅 Santa]_ Sadly, she's no longer a 10.\
-> \
-> _[🎩 Bernard]_ Are we talking about the same thing??\
-> \
-> _[🎅 Santa]_ Huh? Oh. Right, you were talking about the reindeer.\
-> \
-> _[🎩 Bernard]_ Yeah, what were you talking about?\
-> \
-> _[🎅 Santa]_ Nothing, nothing. So just tell them they'll get their raise when they can show some dedication to this business.\
-> \
-> _[🎩 Bernard]_ The thing is they feel like they've more than accomplished that over the last 15 years since they last got a pay increase.\
-> \
-> _[🎅 Santa]_ Tell them we'll review it during the next performance review.\
-> \
-> _[🎩 Bernard, facepalming]_ And when is that?\
-> \
-> _[🎅 Santa]_ When their performance improves! You think I just give raises to anyone who pulls a sleigh? This isn’t charity.
+Some of the lazier elves in the workshop are trying to automate their toy-making duties using code with a familiar syntax. Before 🎅 Santa finds out about their automation scheme, the code needs to be parsed and validated by 🎩 Bernard to make sure no corners are being cut!
 
-We need a type for a function that represents the performance review cycle. With this function in hand, perhaps 🎩 Bernard will be able to convince 🎅 Santa to take the reindeer's demands more seriously.
+Implement a type `Parse` that analyzes these scripts and breaks them down into their basic components. The scripts include:
+
+- Variable declarations (using `let`, `const`, or `var`)
+- Function calls (like `wrapGift` or `buildToy`)
+
+For example, when an elf writes:
+
+```ts
+let teddyBear = 'standard_model'
+buildToy(teddyBear)
+```
+
+It needs to be decoded for 🎩 Bernard's review as:
+
+```plaintext
+[
+	{
+		id: 'teddyBear',
+		type: 'VariableDeclaration',
+	},
+	{
+		argument: 'teddyBear',
+		type: 'CallExpression',
+	},
+]
+```
+
+The code validator needs to handle:
+
+- Different ways of declaring variables (`let`, `const`, and `var`)
+- Any function call that takes a parameter
+- Various amounts of spacing, tabs, and empty lines (elves aren't great at formatting)
 
 <details>
 <summary>Hint</summary>
-Learn some more about how to create and type async functions that are also iterable (generators).
+Use recursive type patterns with string template literals to decode the automation scripts step by step. Be careful with whitespace - elves are notoriously inconsistent with their formatting!
 </details>
 
 ## Expected Behavior
 
 ```ts
-async function* numberAsyncGenerator() {
-	yield 1
-	yield 2
-	yield 3
-}
+type Test01 = Parse<`
+let teddyBear = "standard_model";
+`>
+/**
+ * => [
+ *      {
+ * 	        id: 'teddyBear';
+ *          type: 'VariableDeclaration';
+ *      },
+ *    ]
+ */
 
-type Test01 = PerfReview<ReturnType<typeof numberAsyncGenerator>> // => 1 | 2 | 3
+type Test02 = Parse<`
+buildToy(teddyBear);
+`>
+/**
+ * => [
+ *      {
+ *          argument: 'teddyBear';
+ *          type: 'CallExpression';
+ *      },
+ *    ]
+ */
 
-async function* stringAsyncGenerator() {
-	yield '1%'
-	yield '2%'
-}
+type Test03 = Parse<`
+let robotDog = "deluxe_model";
+assembleToy(robotDog);
+`>
+/**
+ * => [
+ *      {
+ *          id: 'robotDog';
+ *          type: 'VariableDeclaration';
+ *      },
+ *      {
+ *          argument: 'robotDog';
+ *          type: 'CallExpression';
+ *      },
+ *    ]
+ */
 
-type Test02 = PerfReview<ReturnType<typeof stringAsyncGenerator>> // => '1%' | '2%'
+type Test04 = Parse<`
+  const giftBox = "premium_wrap";
+    var ribbon123 = "silk";
+
+  \t
+  wrapGift(giftBox);
+  \r\n
+      addRibbon(ribbon123);
+`>
+/**
+ * => [
+ *      {
+ *          id: 'giftBox';
+ *          type: 'VariableDeclaration';
+ *      },
+ *      {
+ *          id: 'ribbon123';
+ *          type: 'VariableDeclaration';
+ *      },
+ *      {
+ *          argument: 'giftBox';
+ *          type: 'CallExpression';
+ *      },
+ *      {
+ *          argument: 'ribbon123';
+ *          type: 'CallExpression';
+ *      },
+ *    ]
+ */
+
+type Test05 = Parse<'\n\t\r \t\r '> // => []
 ```
 
-> Prompt by [Dimitri Mitropoulos](https://github.com/dimitropoulos) of [Michigan TypeScript](https://michigantypescript.com/).
+> Prompt by [Travis Wagner](https://github.com/trvswgnr).
 
-> Code by [Dimitri Mitropoulos](https://github.com/dimitropoulos) of [SquiggleConf](https://squiggleconf.com/).
+> Code by [Josh Goldberg](https://joshuakgoldberg.com/) of [typescript-eslint](https://typescript-eslint.io/).
