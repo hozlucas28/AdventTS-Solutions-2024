@@ -65,6 +65,7 @@
 | 17  | Infer the literal return type of a compose function                                                                                               |     🟠     | [Show](./src/17-challenge) |
 | 18  | Prevent infer of the second argument and only allowing the literal types of the first argument                                                    |     🟢     | [Show](./src/18-challenge) |
 | 19  | Extract variable declarations and function calls to an object                                                                                     |     🟠     | [Show](./src/19-challenge) |
+| 20  | Extract variable declarations and function arguments to an object                                                                                 |     🟠     | [Show](./src/20-challenge) |
 
 <h2>
     Related
