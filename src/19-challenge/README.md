@@ -119,4 +119,4 @@ type Test05 = Parse<'\n\t\r \t\r '> // => []
 
 > Prompt by [Travis Wagner](https://github.com/trvswgnr).
 
-> Code by [Josh Goldberg](https://joshuakgoldberg.com/) of [typescript-eslint](https://typescript-eslint.io/).
+> Code by [Josh Goldberg](https://joshuakgoldberg.com/) in honor of [typescript-eslint](https://typescript-eslint.io/).
