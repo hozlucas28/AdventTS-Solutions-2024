@@ -16,8 +16,8 @@ buildToy(teddyBear)
 
 It needs to be decoded for 🎩 Bernard's review as:
 
-```plaintext
-[
+```ts
+;[
 	{
 		id: 'teddyBear',
 		type: 'VariableDeclaration',

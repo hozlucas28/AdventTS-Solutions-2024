@@ -18,7 +18,7 @@ assembleToy(robotDog)
 
 The analyzer should produce:
 
-```plaintext
+```ts
 {
   declared: ["robotDog"],
   used: ["robotDog"]
