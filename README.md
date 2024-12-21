@@ -66,6 +66,7 @@
 | 18  | Prevent infer of the second argument and only allowing the literal types of the first argument                                                    |     🟢     | [Show](./src/18-challenge) |
 | 19  | Extract variable declarations and function calls to an object                                                                                     |     🟠     | [Show](./src/19-challenge) |
 | 20  | Extract variable declarations and function arguments to an object                                                                                 |     🟠     | [Show](./src/20-challenge) |
+| 21  | Improve the challenge 20 to include unused variable declarations                                                                                  |     🟢     | [Show](./src/21-challenge) |
 
 <h2>
     Related
