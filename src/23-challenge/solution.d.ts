@@ -1,3 +1,7 @@
+/* -------------------------------------------------------------------------- */
+/*                           THIS IS NOT MY SOLUTION                          */
+/* -------------------------------------------------------------------------- */
+
 // Helpers
 declare const argKey: unique symbol
 declare const unset: unique symbol

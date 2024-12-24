@@ -1,3 +1,7 @@
+/* -------------------------------------------------------------------------- */
+/*                           THIS IS NOT MY SOLUTION                          */
+/* -------------------------------------------------------------------------- */
+
 // Helpers
 type Whitespace = ' ' | '\n' | '\r' | '\t'
 
@@ -92,4 +96,5 @@ type ParseObjectBody<
 		: never
 
 // Solution
-type Parse<T extends string> = ParseValue<Trim<T>> extends [infer Parsed, ''] ? Parsed : never
+export type Parse<T extends string> =
+	ParseValue<Trim<T>> extends [infer Parsed, ''] ? Parsed : never
