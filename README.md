@@ -38,7 +38,7 @@
     <li>Finally, run <code>pnpm test</code> in your CLI to execute all challenges/tests.</li>
 </ol>
 
-> **Note:** If you want to run a specific challenge/test, execute `pnpm run test:challenge<number>` (challenge 11, 13, and 16 are not testable).
+> **Note:** If you want to run a specific challenge/test, execute `pnpm run test:challenge<number>` (challenge 11, 13, 16, and 24 are not testable).
 
 <h2>
     Challenges
@@ -68,7 +68,8 @@
 | 20  | Extract variable declarations and function arguments to an object                                                                                 |     🟠     | [Show](./src/20-challenge) |
 | 21  | Improve the challenge 20 to include unused variable declarations                                                                                  |     🟢     | [Show](./src/21-challenge) |
 | 22  | Decode a JSON to literal TypeScript types                                                                                                         |     🔴     | [Show](./src/22-challenge) |
-| 23  | Create a type to apply operations (other types) to values                                                                                                                                               |     🟠     | [Show](./src/23-challenge) |
+| 23  | Create a type to apply operations (other types) to values                                                                                         |     🟠     | [Show](./src/23-challenge) |
+| 24  | Create a generic parser to parse anything                                                                                                         |     🔴     | [Show](./src/24-challenge) |
 
 <h2>
     Related
