@@ -67,6 +67,7 @@
 | 19  | Extract variable declarations and function calls to an object                                                                                     |     🟠     | [Show](./src/19-challenge) |
 | 20  | Extract variable declarations and function arguments to an object                                                                                 |     🟠     | [Show](./src/20-challenge) |
 | 21  | Improve the challenge 20 to include unused variable declarations                                                                                  |     🟢     | [Show](./src/21-challenge) |
+| 22  | Decode a JSON to literal TypeScript types                                                                                                         |     🔴     | [Show](./src/22-challenge) |
 
 <h2>
     Related
