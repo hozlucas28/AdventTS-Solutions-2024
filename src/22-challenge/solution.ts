@@ -1,7 +1,7 @@
 // Helpers
 type Whitespace = ' ' | '\n' | '\r' | '\t'
 
-type Number = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+type Int = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 
 type EscapeChar = {
 	'\\': '\\'
@@ -26,16 +26,18 @@ type RemoveComma<S extends string> = S extends `${Whitespace}${infer R}`
 		: S
 
 type ParseValue<T extends string> =
-	| ParseNumber<T>
+	| ParseInt<T>
 	| ParseString<T>
 	| ParseBoolean<T>
 	| ParseNull<T>
 	| ParseArray<T>
 	| ParseObject<T>
 
-type ParseNumber<T extends string, K extends string = ''> = T extends `${infer Value extends
-	Number}${infer Body}`
-	? ParseNumber<Body, `${K}${Value}`>
+type ParseInt<
+	T extends string,
+	K extends string = '',
+> = T extends `${infer D extends Int}${infer Body}`
+	? ParseInt<Body, `${K}${D}`>
 	: K extends `${infer Head extends number}`
 		? [Head, T]
 		: never
@@ -90,5 +92,4 @@ type ParseObjectBody<
 		: never
 
 // Solution
-export type Parse<T extends string> =
-	ParseValue<Trim<T>> extends [infer Parsed, ''] ? Parsed : never
+type Parse<T extends string> = ParseValue<Trim<T>> extends [infer Parsed, ''] ? Parsed : never
