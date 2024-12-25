@@ -70,6 +70,7 @@
 | 22  | Decode a JSON to literal TypeScript types                                                                                                         |     🔴     | [Show](./src/22-challenge) |
 | 23  | Create a type to apply operations (other types) to values                                                                                         |     🟠     | [Show](./src/23-challenge) |
 | 24  | Create a generic parser to parse anything                                                                                                         |     🔴     | [Show](./src/24-challenge) |
+| 25  | The end of the journey                                                                                                                            |     🟢     | [Show](./src/25-challenge) |
 
 <h2>
     Related
